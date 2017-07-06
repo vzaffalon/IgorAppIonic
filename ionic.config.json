@@ -1,5 +1,9 @@
 {
   "name": "igorAppIonic",
   "app_id": "32d790a3",
-  "defaultBrowser": "chrome"
+  "defaultBrowser": "chrome",
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*"
+  ]
 }
