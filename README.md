@@ -28,8 +28,8 @@ ionic build android
 ionic emulate android
 
 Lista de aventuras
-![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/img1.png)
+![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/image1.png)
 Adicionando Aventura
-![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/img2.png)
+![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/image2.png)
 Historia da aventura
-![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/img3.png)
+![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/image3.png)
