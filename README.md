@@ -26,3 +26,10 @@ ionic emulate ios
 ionic build android
 
 ionic emulate android
+
+Lista de aventuras
+![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/img1.png)
+Adicionando Aventura
+![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/img2.png)
+Historia da aventura
+![alt text](https://raw.githubusercontent.com/vzaffalon/IgorAppIonic/master/img3.png)
