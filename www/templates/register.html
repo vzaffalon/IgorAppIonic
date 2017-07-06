@@ -1,0 +1,78 @@
+<style>
+  .center {
+    position: relative;
+    margin: auto;
+    left: 0;
+    right:0;
+    height:60px;
+    top: 50px;
+  }
+
+  .center>img {
+    position: absolute;
+    height: 100%;
+    margin:auto;
+    left:0;
+    right:0;
+
+  }
+
+  .wrapper {
+    text-align: center;
+    padding-top: 155px;
+    padding-right: 50px;
+
+
+  }
+
+
+  .text-input {
+    font-size: 25px;
+    color: white !important;
+  }
+  .checkbox-input{
+
+    color: white;
+
+  }
+  </style>
+
+<ion-view class="loginbackground-dark">
+  <ion-content overflow-scroll="false">
+
+    <div class="center">
+      <img src="img/igor_login_igor_icon.png" ng-click="goToAdventure()">
+      </div>
+      <div class="center">
+        <img src="img/igor_facebook_login.png" alt="Facebook Login" style="width:60%;height:15%px; margin-top:55px;">
+      </div>
+
+    <div class="list center" style="width: 70%; margin-top: 40px;">
+      <label class="item item-input item-floating-label text-input">
+        <span class="input-label ">email</span>
+        <input type="text" placeholder="Email" ng-model="data.email">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">senha</span>
+        <input type="password" placeholder="Senha" ng-model="data.password">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Nickname</span>
+        <input type="text" placeholder="Nickname" ng-model="data.nickname">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Data de nascimento</span>
+        <input type="text" placeholder="Data de nascimento" ng-model="data.birthdate">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Sexo</span>
+        <input type="text" placeholder="Sexo" ng-model="data.gender">
+      </label>
+    </div>
+      <div class="wrapper">
+        <button class="button button-green" style="float: right; margin-top:220px" ng-click="register()">
+        Criar
+      </button></div>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,41 @@
+<ion-view ng-class="'background-dark-' + background_id">
+  <ion-nav-title>
+    <span class="color-letter">Aventura</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="dropdown-menu" ng-show="$root.showDropDown">
+      <p>Editar</p>
+      <p>Ordenar</p>
+    </div>
+    <h3 class="fira-font" style="color:white; text-align: start; margin:20px; font-size: 20px;">{{adventure_name}}</h3>
+
+    <!--<div class="tabs-striped tabs-top tabs-background-stable tabs-color-light">-->
+      <!--<div class="tabs" style="margin-top: 20px; margin-left:15px; width:92%">-->
+        <!--<a class="tab-item active" ng-click="addHistory()">-->
+          <!--<p style="color:black">HISTÓRIA</p>-->
+        <!--</a>-->
+        <!--<a class="tab-item" ng-click="addPlayers()">-->
+          <!--<p style="color:black">JOGADORES</p>-->
+        <!--</a>-->
+      <!--</div>-->
+    <!--</div>-->
+
+    <div class="cssmenu" >
+      <ul>
+        <li ng-class="{'cssmenu-active': includePlayers}" ng-click="addHistory()"><a>História</a></li>
+        <li ng-class="{'cssmenu-active': includeHistory}" ng-click="addPlayers()"><a>Jogadores</a></li>
+      </ul>
+    </div>
+
+    <div ng-include="'templates/history.html'" ng-if="includeHistory"
+         style=" margin-top:61px;margin-left:15px; margin-right:15px"></div>
+    <div ng-include="'templates/players.html'" ng-if="includePlayers"
+         style="margin-top: 61px; margin-left:15px; margin-right:15px"></div>
+  </ion-content>
+
+  <button id="fab" ng-click="showAdventureInfoPopup()"
+          class="button button-positive button-fab button-fab-bottom-right"
+          style="position:fixed;background-color: #36e0ba;; color: #f6d282">
+    <i class="icon ion-plus-round"></i>
+  </button>
+</ion-view>

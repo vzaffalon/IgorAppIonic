@@ -1,0 +1,22 @@
+<ion-view class="background-dark">
+  <ion-content>
+    <div class="dropdown-menu" ng-show="$root.showDropDown">
+      <p>Editar</p>
+      <p>Ordenar</p>
+    </div>
+    <div ng-repeat="adventure in adventures">
+      <div class="card stable-bg" ng-class="'card-back-' + adventure.background_id" ng-click="goToAdventureInfo($index)">
+        <h3 class="fira-font" style="margin-top: 20px; margin-left: 45px; font-size: 150%; color: white;">{{adventure.title}}</h3>
+        <img src="img/botao_excluir.png" ng-show=false alt="some_text" style="width:5%; height:5%;">
+        <p class="fira-font" style="margin-top: 15px; margin-left: 45px; color: white;">próxima sessão {{adventure.data}}</p>
+        <div class="myProgress" style="margin-bottom: 20px;">
+          <div class="myBar" ng-style="{width:adventure.progress + '%'}"></div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+
+  <button id="fab" class="button button-positive button-fab button-fab-bottom-right" style="background-color: #36e0ba; color: #f6d282" ng-click="goToAddAdventure()">
+    <i class="icon ion-plus-round"></i>
+  </button>
+</ion-view>

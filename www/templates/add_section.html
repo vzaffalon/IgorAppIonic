@@ -1,0 +1,38 @@
+<ion-view class="background-dark">
+  <ion-nav-title>
+    <span class="color-letter">Aventuras</span>
+  </ion-nav-title>
+  <ion-content>
+
+    <img src="img/icon_create_adventure.png" style="height: 56px; width: 56px; margin-left: 342px; margin-top: -15px; position: absolute; z-index: 100;" ng-click="goToAdventureInfo()">
+
+    <div class="card" style="min-height: 100%">
+      <div class="item item-divider " style="color: #0e947b ">
+        <i class="icon ion-close" style="color: #9dbbb9;" ng-click="goToAdventureInfo()"></i>
+           <span style="padding-left: 15px">Criar Sessão</span>
+      </div>
+
+      <div class="item ">
+        <div class="list">
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">De um nome à sua proxima sessão</span>
+            <input type="text" placeholder="Nome da sessão" ng-model="data.section_name">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Descrição do que acontecera na sessão</span>
+            <input type="text" placeholder="Descrição" ng-model="data.section_description">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Insira a data que ocorrerá a proxima sessão</span>
+            <input type="text" placeholder="Data da sessão" ng-model="data.section_date">
+          </label>
+          <button class="button button-green" style="float: right" ng-click="saveSection()">
+            Pronto
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

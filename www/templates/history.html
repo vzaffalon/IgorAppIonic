@@ -1,0 +1,9 @@
+  <div class="card fira-font" style="padding: 10px">
+    <p style="margin-left:15px; margin-right:15px">{{adventure_description}}</p>
+    <div ng-repeat="history in histories">
+      <div ng-click="showHideSection($index)"style="background-color: #a8a3ac; margin: 15px 15px 15px 15px">
+        <p style="margin-left:8px; margin-right:8px">{{history.data}} {{history.title}}</p>
+        <p ng-show="history.show" style="margin-left:8px; margin-right:8px">{{history.description}}</p>
+      </div>
+    </div>
+  </div>

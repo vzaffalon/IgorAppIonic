@@ -1,0 +1,40 @@
+<style>
+  .post-container {
+    margin: 0px 0px 0 0;
+    overflow: auto
+  }
+
+  .post-thumb {
+    float: left
+
+  }
+
+  .post-thumb img {
+    display: block;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.26);
+  }
+
+  .post-content {
+    margin-left: 95px;
+    border-bottom: 1px solid black;
+  }
+
+  .post-title {
+    font-weight: bold;
+    font-size: 200%
+  }
+</style>
+<div class="card" style="padding:15px">
+
+  <div ng-repeat="player in players">
+    <div class="fira-font post-container" style="padding:10px">
+      <div class="post-thumb"><img src="img/profile.png" alt="some_text" style="width:60px;height:auto;"></div>
+      <div class="post-content">
+        <div class="post-title" style="font-size:16px;">{{player.role}}</div>
+        <div style="font-style: italic">{{player.name}}</div>
+        <div>{{player.description }}</div>
+      </div>
+    </div>
+  </div>
+
+</div>

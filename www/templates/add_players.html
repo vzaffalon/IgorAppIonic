@@ -1,0 +1,38 @@
+<ion-view class="background-dark">
+  <ion-nav-title>
+    <span class="color-letter">Aventuras</span>
+  </ion-nav-title>
+  <ion-content>
+
+    <img src="img/icon_create_adventure.png" style="height: 56px; width: 56px; margin-left: 342px; margin-top: -15px; position: absolute; z-index: 100;" ng-click="goToAdventureInfo()">
+
+    <div class="card" style="min-height: 100%">
+      <div class="item item-divider " style="color: #0e947b ">
+        <i class="icon ion-close" style="color: #9dbbb9;" ng-click="goToAdventureInfo()"></i>
+           <span style="padding-left: 15px">Adicionar Jogador</span>
+      </div>
+
+      <div class="item ">
+        <div class="list">
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Insira o nickname do jogador</span>
+            <input type="text" placeholder="Nickname" ng-model="data.user_nickname">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Escreva a classe do jogador</span>
+            <input type="text" placeholder="Classe" ng-model="data.game_role">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Escreva a descrição desse jogador </span>
+            <input type="text" placeholder="Descrição" ng-model="data.game_role_description">
+          </label>
+          <button class="button button-green" style="float: right" ng-click="savePlayer()">
+            Pronto
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,164 @@
+/* Empty. Add your own CSS if you like */
+
+
+.background-dark {
+  background: url("../img/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.background-dark-1 {
+  background: url("../img/miniatura_corvali.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.background-dark-2{
+  background: url("../img/miniatura_heartlands.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.background-dark-3{
+  background: url("../img/miniatura_imagem_automática.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.background-dark-4{
+  background: url("../img/miniatura_krevast.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.background-dark-5{
+  background: url("../img/miniatura_coast.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.loginbackground-dark {
+  background: url("../img/loginbackground.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.dropdown-menu{
+  background: url("../img/dropdown_menu.png");
+  padding: 25px;
+  margin: 0px;
+  float: right;
+  background-size: 100% 100%;
+}
+
+.card-back-1{
+  background: url("../img/miniatura_corvali.png");
+  margin: 0px;
+  padding: 10px;
+  margin-bottom: 3px;
+  background-size: 100% 100%;
+}
+
+.card-back-2{
+  background: url("../img/miniatura_heartlands.png");
+  margin:0px;
+  margin-bottom: 3px;
+  padding: 10px;
+  background-size: 100% 100%;
+}
+
+.card-back-3{
+  background: url("../img/miniatura_imagem_automática.png");
+  margin: 0px;
+  margin-bottom: 3px;
+  padding: 10px;
+  background-size: 100% 100%;
+}
+
+.card-back-4{
+  background: url("../img/miniatura_krevast.png");
+  margin: 0px;
+  margin-bottom: 3px;
+  padding: 10px;
+  background-size: 100% 100%;
+}
+
+.card-back-5{
+  background: url("../img/miniatura_coast.png");
+  margin: 0px;
+  margin-bottom: 3px;
+  padding: 10px;
+  background-size: 100% 100%;
+}
+
+.card-white{
+  background-color: #E8EAF6
+}
+
+
+.bar-header-color {
+  background-color: #221133 !important;
+}
+
+.color-letter {
+  color: #f6d282 !important;
+}
+
+.color-letter-desactivated{
+  color: #ff3d55 !important;
+}
+
+.fira-font{
+    font-family: 'Fira Sans', sans-serif;
+}
+.item-content{
+  background-color: #221133 !important;
+}
+
+.item .item-content{
+  background-color: transparent; !important;
+}
+
+.myProgress {
+    position: relative;
+    width: 75%;
+    height: 2px;
+    background-color: white;
+    margin-left: 45px;
+}
+.myBar {
+    position: absolute;
+    height: 100%;
+    background-color: green;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.button-green{
+  background-color: #0b9c8d;
+  color: white;
+}
+.cssmenu > ul > li {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  float: left ;
+  position: relative;
+  width: 50%;
+  background-color: white;
+  border-radius: 5px 5px 2px 2px;
+  transform: perspective(5px) rotateX(1deg);
+}
+.cssmenu > ul > li > a {
+  color: black;
+  text-decoration: none;
+}
+.cssmenu-active{
+  z-index: -1;
+  background-color: #9cb7b6 !important;
+}
+.cssmenu{
+  width:85%;
+  position: relative;
+  margin: 0 auto;
+}
